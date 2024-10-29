@@ -1,0 +1,90 @@
+[
+    {
+        "_id": 1,
+        "name": "Jordan 1 Lost & Found",
+        "img_name": "j1.png",
+        "description": "The AJ1 'Chicago' was inspired by the high top Air Jordan 1 original colorway, first released in 1985. The shoe harkens back to a time when shoe boxes were often lost in inventory stockrooms, only to be found again years later.",
+        "color": "Varsity Red/White/Black",
+        "size": "9",
+        "price": 150,
+        "brand": "Air Jordan",
+        "category": "Sneakers"
+    },
+    {
+        "_id": 2,
+        "name": "Kith Treats Cafe: Tokyo T Shirt",
+        "img_name": "p2.png",
+        "description": "The Kith Treats Tokyo T-shirt blends contemporary streetwear aesthetics with a nod to Japanese culture. Featuring the iconic Kith Treats logo juxtaposed against a backdrop inspired by Tokyo's vibrant cityscape, this shirt offers a stylish statement for those who appreciate both urban fashion and cultural fusion. Crafted with quality materials and attention to detail, it embodies the essence of modern streetwear with a global flair.",
+        "color": "White",
+        "size": "M",
+        "price": 45,
+        "brand": "Kith",
+        "category": "Apparel"
+    },
+    {
+        "_id": 3,
+        "name": "Jordan 4: Bred Reimagined",
+        "img_name": "p3.png",
+        "description": "The Air Jordan 4 Bred is a timeless sneaker with black and red accents, released in 1989. Designed by Tinker Hatfield, it features Air cushioning and remains a classic choice for both basketball and style.",
+        "color": "Black/Red",
+        "size": "13",
+        "price": 200,
+        "brand": "Air Jordan",
+        "category": "Sneakers"
+    },
+    {
+        "_id": 4,
+        "name": "BAPE Color Camo Big Ape Head Tee",
+        "img_name": "p5.png",
+        "description": "The BAPE Color Camo Big Ape Head Tee is a statement piece from A Bathing Ape (BAPE), renowned for its bold streetwear designs. This tee showcases the brand's iconic ape head logo adorned with vibrant color camouflage patterns. With its striking visuals and high-quality construction, it's a must-have for streetwear enthusiasts looking to make a bold statement with their style.",
+        "color": "Multi-color",
+        "size": "S",
+        "price": 90,
+        "brand": "BAPE",
+        "category": "Apparel"
+    },
+    {
+        "_id": 5,
+        "name": "Arc'teryx Jacket Black",
+        "img_name": "p6.png",
+        "description": "The Arc'teryx Black Jacket is a sleek and versatile outerwear piece designed for performance and style. Crafted by Arc'teryx, known for their high-quality outdoor gear, this jacket features a black colorway for a timeless look. With its innovative materials and functional design, it offers protection against the elements while maintaining a sleek aesthetic that transitions effortlessly from outdoor adventures to urban environments.",
+        "color": "Black",
+        "size": "L",
+        "price": 300,
+        "brand": "Arc'teryx",
+        "category": "Outerwear"
+    },
+    {
+        "_id": 6,
+        "name": "Nike Air Max 90",
+        "img_name": "am6.png",
+        "description": "The Infrared Air Max 90 is a cultural icon that debuted in 1990, featuring visible Air cushioning and a vibrant Infrared colorway. Designed by Tinker Hatfield, it revolutionized sneaker design and became a favorite among athletes and trendsetters. Its timeless style and cultural significance make it a must-have for sneaker enthusiasts worldwide.",
+        "color": "White/Black/Infrared",
+        "size": "18",
+        "price": 160,
+        "brand": "Nike",
+        "category": "Sneakers"
+    },
+    {
+        "_id": 7,
+        "name": "Fear of God Hoodie",
+        "img_name": "f7.jpg",
+        "description": "The Brown Fear of God hoodie is a luxurious blend of comfort and style, embodying the essence of contemporary streetwear fashion. Crafted from premium quality cotton, it offers unparalleled softness and durability. Its rich brown hue adds depth to any outfit, while the iconic Fear of God logo subtly elevates its aesthetic appeal. With its relaxed fit and timeless design, this hoodie effortlessly merges urban edge with refined sophistication, making it a must-have staple for fashion-forward individuals seeking both comfort and flair.",
+        "color": "Brown",
+        "size": "M",
+        "price": 350,
+        "brand": "Fear of God",
+        "category": "Outerwear"
+    },
+    {
+        "_id": 6,
+        "name": "Air Jordan 4: Military Blue (1989)",
+        "img_name": "aj4.png",
+        "description": "The Military Blue Jordan 4, released in 1989, is a timeless classic. Designed by Tinker Hatfield for Michael Jordan's signature line, its crisp white leather and striking blue accents have made it an icon in sneaker culture. With its legendary silhouette and rich history, the Military Blue Jordan 4 remains a coveted choice for sneaker enthusiasts worldwide.",
+        "color": "White/Blue/Grey",
+        "size": "9.5",
+        "price": 4500,
+        "brand": "Air Jordan",
+        "category": "Sneakers"
+    }
+]

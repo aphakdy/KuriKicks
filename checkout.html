@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="/css/styles.css">
+      <link rel="stylesheet" href="../../fontawesome-free-6.5.1-web/css/all.min.css">
+      <title>KuriKicks</title>
+   </head>
+   <body>
+      <!-- Header Content (WIP, icons aren't working when clicked?) -->
+      <div id="menu-header">
+         <div class="menu-icons">
+            <nav>
+               <div class="navbar">
+                  <div class="container nav-container">
+                     <input class="checkbox" type="checkbox" name="" id="" />
+                     <div class="hamburger-lines">
+                        <span class="line line1"></span>
+                        <span class="line line2"></span>
+                        <span class="line line3"></span>
+                     </div>
+                     <div class="logo">
+                     </div>
+                     <div class="menu-items">
+                        <a href="index.html" class="menu-item">Home</a>
+                        <a href="inventory.html" class="menu-item">Inventory</a>
+                        <a href="newarrivals.html" class="menu-item">New Arrivals</a>
+                        <a href= "gallery.html" class="menu-item">Gallery</a>
+                        <a href="addItem.html" class="menu-item">Request Form</a>
+                        <a href="contact.html" class="menu-item">Contact Us</a>
+                        <a href="login.html" class="menu-item">Login</a>
+                    </div>
+                  </div>
+               </div>
+            </nav>
+         </div>
+         <div class="menu-icons">
+            <a href="checkout.html" class="icon-link"><i class="fas fa-shopping-cart"></i></a> <!-- Shopping Cart Icon -->
+            <a href="login.html" class="icon-link"><i class="fas fa-user"></i></a> <!-- Person Icon -->
+         </div>
+      </div>
+      <div id="brand-header">
+         <a href="#" id="brand-name">KuriKicks</a>
+      </div>
+      <!-- Page Content -->
+      <div id="login-header">
+         <h1>CHECKOUT</h1>
+         <p>Please enter your information below:</p>
+         <form id="checkout-form" action="https://api.web3forms.com/submit" method="POST"> 
+            <input type="hidden" name="access_key" value="1a775aaa-ecf9-48b3-89e5-7a46c5c42e48"> 
+            <!-- Add a hidden field for the redirect URL -->
+            <input type="hidden" name="redirect_url" value="checkoutconfirm.html">
+            <h2>DELIVERY</h2>
+            <div class="input-container">
+               <input type="text" name="address" placeholder="Street Address/ZIP" required>
+            </div>
+            <div class="input-container">
+               <input type="text" name="state" placeholder="State" required>
+            </div>
+            <div class="input-container">
+               <input type="text" name="city" placeholder="City" required>
+            </div>
+            <h2>PAYMENT INQUIRY</h2>
+            <p>We will be in contact soon provided this information, you will receive a text and PayPal request.</p>
+            <div class="input-container">
+               <input type="text" name="buyerName" placeholder="Customer Name" required>
+            </div>
+            <div class="input-container">
+               <input type="text" name="phone" placeholder="Phone Number:" required>
+            </div>
+            <button type="submit" class="action-button" id="checkout-button">CONFIRM</button>
+        </form>
+      </div>
+      <!-- Footer -->
+      <div id="footer">
+         © kurikaraoku.github.io
+      </div>
+   </body>
+   <script src="/js/checkout.js" defer></script>
+</html>

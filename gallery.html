@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="../../fontawesome-free-6.5.1-web/css/all.min.css">
+    <title>KuriKicks - User Gallery</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+   <!-- Header Content -->
+   <div id="menu-header">
+    <div class="menu-icons">
+        <nav>
+            <div class="navbar">
+                <div class="container nav-container">
+                    <input class="checkbox" type="checkbox" name="" id="" />
+                    <div class="hamburger-lines">
+                        <span class="line line1"></span>
+                        <span class="line line2"></span>
+                        <span class="line line3"></span>
+                    </div>
+                    <div class="logo"></div>
+                    <div class="menu-items">
+                        <a href="index.html" class="menu-item">Home</a>
+                        <a href="inventory.html" class="menu-item">Inventory</a>
+                        <a href="newarrivals.html" class="menu-item">New Arrivals</a>
+                        <a href="gallery.html" class="menu-item">Gallery</a>
+                        <a href="addItem.html" class="menu-item">Request Item</a>
+                        <a href="contact.html" class="menu-item">Contact Us</a>
+                        <a href="login.html" class="menu-item">Login</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="menu-icons">
+        <a href="checkout.html" class="icon-link"><i class="fas fa-shopping-cart"></i></a>
+        <a href="login.html" class="icon-link"><i class="fas fa-user"></i></a>
+    </div>
+</div>
+
+<div id="brand-header">
+    <a href="#" id="brand-name">KuriKicks</a>
+</div>
+
+    <h1>User Gallery</h1>
+<!-- Floating Action Button for Adding Posts -->
+<button type="button" class="btn btn-primary rounded-circle" id="addPostBtn" data-toggle="modal" data-target="#uploadModal">
+    <i class="fas fa-plus"></i> <!-- Font Awesome icon for the plus symbol -->
+</button>
+
+
+    <!-- Upload Modal -->
+<div class="modal fade" id="uploadModal" tabindex="-1" aria-labelledby="uploadModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="uploadModalLabel">Upload Image</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body text-center">
+                <form id="uploadForm" enctype="multipart/form-data">
+                    <div class="form-group">
+                        <label for="imageUpload">Image:</label>
+                        <input type="file" id="imageUpload" name="image" required onchange="previewImage();">
+                        <img id="imagePreview" src="#" alt="Image Preview" class="img-fluid mt-3" style="display: none; max-height: 200px;">
+                    </div>
+                    <div class="form-group">
+                        <label for="photographerName">Username:</label>
+                        <input type="text" id="photographerName" class="form-control" name="photographerName" placeholder="Username." required>
+                    </div>
+                    <div class="form-group">
+                        <label for="photographerName">Title:</label>
+                        <input type="text" id="titleName" class="form-control" name="titleName" placeholder="Title." required>
+                    </div>
+                    <div class="form-group">
+                        <label for="caption">Caption:</label>
+                        <textarea id="caption" class="form-control" name="caption" placeholder="Enter a caption." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Upload</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    <!-- Detail View Modal -->
+    <div class="modal fade" id="detailModal" tabindex="-1" aria-labelledby="detailModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="detailModalLabel">Image Details</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <!-- Details will be dynamically loaded here by gallery.js -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="galleryContainer"></div> <!-- Container to display gallery items -->
+
+    <div id="footer">
+        © kurikaraoku.github.io
+    </div>
+
+    <script src="/js/gallery.js"></script> <!-- Script to load images from your API -->
+</body>
+</html>

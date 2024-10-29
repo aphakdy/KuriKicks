@@ -1,0 +1,44 @@
+[
+    {
+        "_id": "1",
+        "title": "Pine Greens",
+        "description": "Posted up in the pine green 1's in the street.",
+        "imageUrl": "/uploads/j1.jpg",
+        "photographerName": "madMike2323"
+    },
+    {
+        "_id": "2",
+        "title": "Panda Panda",
+        "description": "My favorite animal and my favorite shoe!",
+        "imageUrl": "/uploads/j2.jpg",
+        "photographerName": "pandaLover22"
+    },
+    {
+        "_id": "3",
+        "title": "Fear of God or fear of me?",
+        "description": "Fear of God has the best quality for streetwear in my opinion.",
+        "imageUrl": "/uploads/g3.jpg",
+        "photographerName": "FOGLover2020"
+    },
+    {
+        "_id": "4",
+        "title": "Midsole Crumble Pain",
+        "description": "This is why we wear our shoes, or else this will happen.",
+        "imageUrl": "/uploads/g4.jpg",
+        "photographerName": "OGUncSoles"
+    },
+    {
+        "_id": "5",
+        "title": "Travis Scottu",
+        "description": "Just spotted travis wearing the fragments, so cool.",
+        "imageUrl": "/uploads/g5.jpg",
+        "photographerName": "LaFlameMan"
+    },
+    {
+        "_id": "6",
+        "title": "Are these real or fake?",
+        "description": "I got these Jordans but they look a little off...",
+        "imageUrl": "/uploads/g6.png",
+        "photographerName": "RepManRicky"
+    }
+]

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="/css/styles.css">
+      <link rel="stylesheet" href="../../fontawesome-free-6.5.1-web/css/all.min.css">
+      <title>KuriKicks</title>
+      <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+   </head>
+   <body class="inventory-page">
+      <!-- Header Content (WIP, icons aren't working when clicked?) -->
+      <!-- Your header content goes here -->
+      <!-- Header Content -->
+    <div id="menu-header">
+      <div class="menu-icons">
+          <nav>
+              <div class="navbar">
+                  <div class="container nav-container">
+                      <input class="checkbox" type="checkbox" name="" id="" />
+                      <div class="hamburger-lines">
+                          <span class="line line1"></span>
+                          <span class="line line2"></span>
+                          <span class="line line3"></span>
+                      </div>
+                      <div class="logo"></div>
+                      <div class="menu-items">
+                        <a href="index.html" class="menu-item">Home</a>
+                        <a href="inventory.html" class="menu-item">Inventory</a>
+                        <a href="newarrivals.html" class="menu-item">New Arrivals</a>
+                        <a href="gallery.html" class="menu-item">Gallery</a>
+                           <a href="addItem.html" class="menu-item">Request Item</a>
+                        <a href="contact.html" class="menu-item">Contact Us</a>
+                        <a href="login.html" class="menu-item">Login</a>
+                    </div>
+                  </div>
+              </div>
+          </nav>
+      </div>
+      <div class="menu-icons">
+          <a href="checkout.html" class="icon-link"><i class="fas fa-shopping-cart"></i></a>
+          <a href="login.html" class="icon-link"><i class="fas fa-user"></i></a>
+      </div>
+  </div>
+
+  <div id="brand-header">
+      <a href="#" id="brand-name">KuriKicks</a>
+  </div>
+
+  <!-- Page Content -->
+      <div id="inventory-header">
+         <h2>INVENTORY</h2>
+      </div>
+
+      <div id="inventory-caption">
+         <h3>The entirety of inventory in the KuriKicks collection.</h3>
+       </div>
+      
+      <!-- Inventory Section -->
+      <div id="inventory" class="main-index">
+         <div class="inventoryproduct-container">
+            <!-- Other Product Items -->
+         </div>
+      </div>
+
+  <!-- Product Modal -->
+<div class="modal fade" id="productModal" tabindex="-1" aria-labelledby="productModalLabel" aria-hidden="true">
+   <div class="modal-dialog">
+      <div class="modal-content">
+         <div class="modal-header">
+            <h5 class="modal-title" id="productModalLabel">Product Details</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+               <span aria-hidden="true">&times;</span>
+            </button>
+         </div>
+         <div class="modal-body">
+            <!-- Product details will be injected here -->
+         </div>
+         <div class="modal-footer">
+            <!-- Checkout button with parameter -->
+            <a href="checkout.html?product=item_id" class="btn btn-primary" id="checkoutButton">Checkout</a>
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+         </div>
+      </div>
+   </div>
+</div>
+
+
+      <!-- Bootstrap JS and jQuery -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+      <!-- JavaScript for handling modal -->
+      <script src="/js/inventory.js" defer></script>
+
+      <!-- Footer -->
+      <div id="footer">
+         ©kurikaraoku.github.io
+      </div>
+   </body>
+</html>
